@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
-             &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6                 &tog 1                                                                                &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11          &kp F12
-     &kp LC(INSERT)      &kp Q      &kp W  &kp LG(E)      &kp R      &kp T            &kp LS(F12)                                                                           &kp INSERT   &kp Y   &kp U   &kp I    &kp O    &kp P           &trans
-     &kp LC(LS(F2))  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)             &kp LA(F8)       &kp LCTRL  &kp LEFT_ALT                    &kp RWIN       &kp RALT   &kp RCTRL   &kp H   &kp J   &kp K    &kp L   &trans           &trans
- &kp LC(LEFT_SHIFT)  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)                                             &kp HOME                      &trans                              &kp N   &kp M  &trans   &trans   &trans  &kp RIGHT_SHIFT
-             &trans     &trans     &trans   &kp LEFT  &kp RIGHT                            &trans  &kp LA(DELETE)       &kp END                  &kp LA(F4)  &kp LC(ENTER)   &kp SPACE          &trans  &trans   &trans   &trans           &trans
+             &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6                 &tog 1                                                                                &mo 3  &kp F7  &kp F8    &kp F9    &kp F10  &kp F11          &kp F12
+     &kp LC(INSERT)      &kp Q      &kp W  &kp LG(E)      &kp R      &kp T            &kp LS(F12)                                                                           &kp INSERT   &kp Y   &kp U     &kp I      &kp O    &kp P           &trans
+     &kp LC(LS(F2))  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)             &kp LA(F8)       &kp LCTRL  &kp LEFT_ALT                    &kp RWIN       &kp RALT   &kp RCTRL   &kp H   &kp J     &kp K  &kp LG(L)   &trans           &trans
+ &kp LC(LEFT_SHIFT)  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)                                             &kp HOME                      &trans                              &kp N   &kp M    &trans     &trans   &trans  &kp RIGHT_SHIFT
+             &trans     &trans     &trans   &kp LEFT  &kp RIGHT                            &trans  &kp LA(DELETE)       &kp END                  &kp LA(F4)  &kp LC(ENTER)   &kp SPACE          &kp UP  &kp DOWN     &trans   &trans           &trans
             >;
         };
 
